@@ -1,0 +1,18 @@
+Log into the Azure Portal
+Go to Sentinel → Threat Management → Workbooks → Add a Workbook.
+
+We are going to use all the logs being created within our environment (some frome students, some from bad actors on the internet) to create world map visualization workbooks for the following scenarios based on originating IP address just to give a visualization of what’s happening in the network:
+
+Entra ID (Azure) Authentication Success https://github.com/joshmadakor1/lognpacific-public/blob/main/cyber-range/sentinel/Directory-Login-Successes.json
+
+Entra ID (Azure) Authentication Failures https://github.com/joshmadakor1/lognpacific-public/blob/main/cyber-range/sentinel/Directory-Login-Failures.json
+
+Azure Resource Creation https://github.com/joshmadakor1/lognpacific-public/blob/main/cyber-range/sentinel/Azure-Resource-Creation.json
+
+VM Authentication Failures https://github.com/joshmadakor1/lognpacific-public/blob/main/cyber-range/sentinel/VM-Authentication-Failures.json
+
+Malicious Traffic Entering the Network https://github.com/joshmadakor1/lognpacific-public/blob/main/cyber-range/sentinel/Allowed-Inbound-Malicious-Flows.json
+
+Bear in mind we are only creating a few of these. You can create maps like this for literally anything. It just depends on what is important to your organization and what you want to see.
+
+
